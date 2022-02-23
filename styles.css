@@ -122,6 +122,7 @@ h1 {
   .mySpacer {
       width: 38px;
       /* padding: 1px; */
+      background-color: green;
   }
 
   .circleMed {
