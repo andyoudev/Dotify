@@ -140,8 +140,8 @@ h1 {
   }
 
   #btnResetSizes {
-    width: auto;
-    margin-left: 5px;
+    width: 100px;
+    margin-left: 0;
   }
 
   #btnRandomRun {
