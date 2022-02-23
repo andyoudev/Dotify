@@ -72,7 +72,7 @@ h1 {
 }
 
 .btn {
-  width: 140px;
+  width: 150px;
   margin-bottom: 4px;
 }
 
@@ -90,7 +90,7 @@ h1 {
 
 #btnResetSizes {
   width: auto;
-  margin-left: 10px;
+  margin-left: 26px;
 }
 
 #myStringToConvert {
@@ -139,5 +139,16 @@ h1 {
       height: 38px;
   }
 
+  #btnResetSizes {
+    width: auto;
+    margin-left: 5px;
+  }
 
+  #btnRandomRun {
+    width: 120px;
+  }
+
+  #btnRandomAnim {
+    width: 150px;
+  }
 }
