@@ -111,7 +111,7 @@ h1 {
 
   .myGrid {
     width: 400px;
-    padding: 0.5% 0.5% 1% 0.5%;
+    padding: 1% 1% 1% 1%;
   }
 
   .circle {
@@ -122,7 +122,6 @@ h1 {
   .mySpacer {
       width: 38px;
       /* padding: 1px; */
-      background-color: green;
   }
 
   .circleMed {
