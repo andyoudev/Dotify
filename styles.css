@@ -1,0 +1,104 @@
+body {
+  text-align: center;
+  /* align-items: center; */
+
+}
+
+h1 {
+  font-family: "Staatliches", cursive;
+  font-size: 3.5rem;
+  color: #65C18C;
+  letter-spacing: 7px;
+  padding-bottom: 2%;
+}
+
+.main-display-section {
+  /* align: center; */
+  margin: auto;
+  width: 400px;
+  /* text-align: center; */
+  padding-top: 1%;
+
+}
+
+.myGrid {
+  display: grid;
+  width: 400px;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f8f9fa;
+  padding: 0.5% 0.5% 1% 0.5%;
+  background-color: white;
+}
+
+.circle {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+.mySpacer {
+    width: 38px;
+    background-color: #f8f9fa;
+    padding: 1px;
+}
+
+.circleMed {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    border-radius: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+.circleLg {
+    position: absolute;
+    width: 114px;
+    height: 114px;
+    border-radius: 100%;
+    z-index: 2;
+    background-color: white;
+}
+
+.circleX {
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    background-color: #f8f9fa;
+}
+
+.btn {
+  width: 150px;
+  margin-bottom: 4px;
+}
+
+.btn:hover {
+  background-color: #C1F4C5;
+}
+
+#btnStrConvert {
+  width: 400px;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#btnResetSizes {
+  width: auto;
+  margin-left: 26px;
+}
+
+#myStringToConvert {
+  width: 400px;
+  /* margin: 0; */
+  border-color: #D1D1D1;
+  border-radius: 0.25rem;
+  text-indent: 4px;
+  margin-top: 2%;
+  resize: inherit;
+}
